@@ -1,0 +1,81 @@
+.contactos{
+    text-decoration:none;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 1rem;
+    
+}
+.contactos{
+    animation: entrar_salir;
+}
+.main__contactos{
+    font-family:sans-serif;
+    background-repeat: no-repeat;
+    background-size:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(223, 233, 236);
+}
+
+.section-contactos__titulos{
+    text-align: center;
+    font-size: 5vmin;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.contactos__formulario{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contactos__form{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.img__contacto{
+    padding: 3rem;
+    border-radius: 1rem;
+    transform: 350px;
+    transition: all 2s;
+    animation-timing-function: ease;
+    animation: infinite;
+
+    @keyframes entrar_salir{
+        0%{
+            opacity: 1;
+        }
+    
+        50%{
+            opacity: 0;
+    
+        }
+    
+        100%{
+            opacity: 0;
+    
+        }
+    
+    
+    }
+}
+

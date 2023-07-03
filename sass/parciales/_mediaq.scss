@@ -1,0 +1,210 @@
+@media screen and (max-width: 425px){
+    .tarjetas__destinos1{
+        
+        margin-left: 1px;
+    }
+
+    .img__nosotros{
+        border-radius: 5px;
+        width: 350px;
+    
+    }
+
+    .hero__titulo2{
+        line-height: 0;
+        margin:50px;
+        padding: 0;
+
+    }
+
+    .parrafo__index{
+        padding: 1rem;
+    }
+
+    
+
+    .container px-5 my-5{
+        padding-left: 3rem!important;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section{
+        flex-direction: column;
+    }
+
+    .section__article{
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 20px;
+      flex-direction: column;
+    }
+
+    .responsive-img{
+        width: 100%;
+        height: auto;
+
+    }
+
+    .section__item{
+        flex-direction: column;
+    }
+
+    .section__item{
+        padding: 0;
+    }
+
+    .img__contacto{
+        border-radius: 5px;
+        width: 350px;
+    }
+
+    .contenedor__imagen{
+        padding: 1rem;
+        border-radius: 5px;
+        
+    }
+
+    .line{
+        width: 600px;
+        height: 8px;
+        background: rgb(65, 65, 180);
+        margin: 10 px auto;
+        border-radius: 15 px;
+        text-align: center;
+    }
+       
+
+}
+
+@media screen and (min-width: 768px){
+
+    .text-center{
+        padding: 1rem;
+        justify-content: center;
+    }
+
+    .tarjetas__destinos1{
+        display: flex;
+        justify-content: center;
+        padding-left: 1rem;
+        align-content: center;
+    }
+
+    .hero__titulo2{
+        padding: 0;
+    }
+    
+    .video__index{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    .col -sm-5{
+        flex:0 0 auto;
+        width: 1%;
+    }
+    
+    .container-destinos{
+        justify-content:space-between;
+    }
+    
+    .text-center{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .section{
+        flex-direction: column;
+    }
+    
+    .section__article{
+      
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+    
+    .section__item{
+        display: flex;
+        width: 100vh;
+        margin-top: 50px;
+        margin-left: 1rem;
+        margin-right: 5rem;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+    
+    .destinos {
+    margin-right: 220px;
+    margin-left: 70px;
+    
+    }
+    
+
+       
+
+    .tarjetas__info{
+        margin-right: 220px;
+        flex-direction: column;
+        margin-left: 70px;
+    }
+
+    .tarjetas{
+        margin-right: 0px;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .section__item{
+        flex-direction: column;
+    }
+
+    .tarjetas__destinos1{
+        display: flex;
+        width: 100hv;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+}
+
+    
+@media screen and (max-width: 1024px){
+
+ .container__index{
+    flex-direction: column;
+    margin-top: 4rem;
+ }   
+
+ .img__nosotros{
+    border-radius: 5px;
+    margin-top: 5rem;
+ }
+
+ .video__index{
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container__index{
+    margin-top: 2rem;
+}
+
+}
+
+

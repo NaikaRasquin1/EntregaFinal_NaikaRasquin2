@@ -1,0 +1,36 @@
+.tarjetas {
+    border-radius: 30px; 
+    display: flex;
+    padding-left: 1rem;
+    background-color: #b0dfd3;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    &__destinos1{
+        border-radius: 1px;
+        display: flex;
+        flex: 1;
+        padding-left: 1rem;
+        gap: 10px;
+        display: flex;
+        width: 100hv;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-top: 0;
+        justify-content: center;
+    }
+        &tarjetas__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        right: 3px;
+        margin-left: 1rem;
+        
+     
+    
+    }
+    }
+
+    
+    

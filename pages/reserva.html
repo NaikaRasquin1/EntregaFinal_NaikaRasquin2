@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="description" content="Contacto">
+  <meta name="keywords" content="Barahona Tours, somos una empresa que brinda al turista un servicio de calidad, en el cual disfruta de nuestras playas y paisajes">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <!--< rel="stylesheet" href="../css/compilado.css">-->
+    <title>RESERVA</title>
+</head>
+<body class="body-reserva" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+  <header  class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="logo-item" href="../index.html" >
+          <img src="../img/banderaRD.jpg"" alt="Logo">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me auto mb-2 mb-lg-0">
+        <li class="nav-menu-item">
+          <a href="../index.html" class="nav-menu-link nav-link">Inicio</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="../pages/nosotros.html" class="nav-menu-link nav-link">Nosotros</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="../pages/destinos.html" class="nav-menu-link nav-link">Destinos</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="../pages/opiniones.html" class="nav-menu-link nav-link">Opiniones</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Reserva</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+  </header>
+  <!--Formulario Reservas-->
+     <main class="main-reserva aos-init aos-animate" data-aos="zoom-out">
+        <section class="reserva">
+            <div class="formulario-reserva">
+                <h1>Realice su reserva</h1>
+                <h2>Por favor ingresar los siguientes datos:</h2>
+                <form class="form" id="formReserva">
+                    <label>NOMBRE:</label>
+                    <input type="text" id="nombre">
+                    <label>APELLIDO:</label>
+                    <input type="text" id="apellido">
+                    <label>NUMERO DE TELEFONO:</label>
+                    <input type="tel" id="telefono">
+                    <label class="input-fecha">FECHA DE ENTRADA:</label>
+                    <input type="date" id="fechaEntrada" required>
+                    <label class="input-fecha">FECHA DE SALIDA:</label>
+                    <input type="date" id="fechaSalida"  required>
+                <input type="submit" class="btn-reserva" id="btn-reserva" value="Realiza tu reserva">
+                </form>
+            </div>
+            <div class="datos-reserva">
+                <h2>Datos de su reserva:</h2>
+                <ul class="listaReservas" id="listaReservas">
+                  <li class="datoReserva"></li>
+                </ul>
+                <p id="total" class="total"></p>
+                <div class="botonesReservas" id="botonesReservas">
+                  
+                </div>
+            </div>
+        </section>
+    </main><br>
+  <footer class="footer">
+    <div class="footer__redes">
+      <a class="footer__a" href="https://www.instagram.com" target="_blanc">
+        <img  class="footer__img" src="../img/ins.svg" alt="logo de instagram">
+        <a class="footer__a" href="https://www.facebook.com" target="_blanc">
+            <img  class="footer__img" src="../img/fa.svg" alt="logo de facebook">
+        </a>
+      </a>
+    </div>
+    <div class="footer__texto">
+    <p class="footer__p">Barahona 2022-2023 © Diseñado por Naika Rasquin. Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!------Script AOS------>
+<script> AOS.init();</script>
+<!------Script JS------><script src="../js/constructores.js"></script>
+<script src="../js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../js/clima.js"></script>
+<script src="../js/sweetAlert.js"></script>
+</body>
+</html>
